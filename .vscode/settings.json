@@ -1,0 +1,4 @@
+{
+  // Use the workspace-local Biome binary (API package) so the editor can find it
+  "biome.path": "${workspaceFolder}/api/node_modules/.bin/biome"
+}
