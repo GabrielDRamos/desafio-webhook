@@ -8,6 +8,7 @@ export function SectionDataTable ({className, data, ...props} : SectionDataTable
     return (
         <div className={twMerge('overflow-hidden rounded-lg border border-zinc-700',className) } {...props}>
                                 <table className='w-full'>
+                                    <tbody>
                                     {data.map(item => {
                                         return (
                                             <tr key={item.key} className='border-b border-zinc-700 last:border-0'>
@@ -20,6 +21,7 @@ export function SectionDataTable ({className, data, ...props} : SectionDataTable
                                             </tr>
                                         )
                                     })}
+                                </tbody>
                                 </table>
                             </div>
     )

@@ -4,7 +4,7 @@ services:
     container_name: webhooks_db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 123
+      POSTGRES_PASSWORD: ''
       POSTGRES_DB: postgres
     ports:
       - '5432:5432'
